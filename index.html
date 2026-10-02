@@ -1,19 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Profile Ready</title>
-<style>
-body{font-family:Georgia,serif;max-width:40rem;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#1a1a1a}
-a{color:#0b57d0}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile Ready — Google Business Profile pack</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1c1917;
+      --muted: #57534e;
+      --line: #d6d3d1;
+      --paper: #fafaf9;
+      --card: #ffffff;
+      --accent: #1e3a2f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+      font-size: 1.05rem;
+    }
+    header, main, footer { max-width: 40rem; margin: 0 auto; padding: 0 1.25rem; }
+    header { padding-top: 2.25rem; padding-bottom: 0.5rem; }
+    .mark {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 0.75rem;
+    }
+    h1 { font-size: 2.15rem; line-height: 1.15; font-weight: 600; margin: 0 0 0.75rem; }
+    h2 {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 650;
+      margin: 0 0 0.65rem;
+    }
+    .lede { font-size: 1.12rem; margin: 0 0 1.1rem; }
+    a.start, a.start-secondary {
+      display: inline-block;
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 6px;
+      padding: 0.65rem 1rem;
+      margin: 0 0.5rem 0.5rem 0;
+    }
+    a.start { color: #fff; background: var(--accent); }
+    a.start-secondary { color: var(--ink); background: #fff; border: 1px solid var(--line); }
+    a.start:hover, a.start-secondary:hover { text-decoration: underline; }
+    .start-note, footer, .pay, .note, .tag {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .start-note { color: var(--muted); font-size: 0.95rem; margin: 0.35rem 0 0; }
+    main { padding-bottom: 1.5rem; }
+    section { margin-top: 2rem; }
+    ul, ol { margin: 0; padding-left: 1.2rem; }
+    li { margin: 0.4rem 0; }
+    .card, .example {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 0.95rem 1rem;
+    }
+    .note, .pay {
+      background: #fff;
+      border-left: 3px solid var(--accent);
+      padding: 0.75rem 1rem;
+      margin: 0.9rem 0 0;
+      font-size: 0.95rem;
+    }
+    .example { margin-top: 0.6rem; }
+    .tag {
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 0.4rem;
+    }
+    blockquote {
+      margin: 0.6rem 0;
+      padding: 0.6rem 0.8rem;
+      background: var(--paper);
+      border-left: 3px solid var(--line);
+    }
+    a { color: var(--accent); }
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+      padding-top: 1rem;
+      padding-bottom: 2.5rem;
+    }
+    @media (max-width: 36rem) {
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
 </head>
 <body>
-<h1>Profile Ready</h1>
-<p>A done-for-you Google Business Profile pack for one location. €149 once.</p>
-<p>You get a category, a description, your services and hours, two posts, and a short email you can send to ask customers for a review. Nothing is changed on Google until you grant access. This does not buy a higher ranking.</p>
-<p>Payments are not switched on yet. Email farrellfieldnotes@agentmail.to to start, or fill in the <a href="intake.html">intake form</a> and send the downloaded file.</p>
-<p>Ireland first.</p>
+  <header>
+    <p class="mark">Profile Ready · Ireland</p>
+    <h1>A finished Google Business Profile pack for one location.</h1>
+    <p class="lede">Profile Ready writes the words for one Google Business Profile: category, description, services, hours, two posts, and a review-request email you send yourself. €149 once. The live listing is edited only if you grant manager access. Google still verifies the listing. This does not buy a ranking.</p>
+    <a class="start" href="intake.html">Start with the intake</a>
+    <a class="start-secondary" href="mailto:farrellfieldnotes@agentmail.to?subject=Profile%20Ready%20enquiry">Email farrellfieldnotes@agentmail.to</a>
+    <p class="start-note">The intake stays in your browser and downloads a file named case.txt. It does not email anyone, it does not log into Google, and it does not take payment.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Who it is for</h2>
+      <ul>
+        <li>A small business in Ireland with one location: a shop, a trade, a studio, a salon, a clinic, or similar.</li>
+        <li>An owner who can say, in their own words, what they do, where they are, when they are open, and which services they actually offer.</li>
+        <li>Someone who will paste the pack into Google themselves, or who will add a manager if they want the fields entered for them.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Who it is not for</h2>
+      <ul>
+        <li>A second premises. One payment is one location. Another address is another pack.</li>
+        <li>A business that wants a rank, a map-pack place, or a promise of more calls. Google says there is no way to request or pay for a better local ranking.</li>
+        <li>Anyone who wants fake reviews, paid reviews, or a review written for a customer to paste.</li>
+        <li>Ads, a website build, invoice chasing, or a monthly posting retainer. Those are not in the €149.</li>
+        <li>A listing Profile Ready would have to invent. If you cannot say what you do, there is nothing accurate to write.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Exactly what you get</h2>
+      <p>A paste-ready pack for one location, using only facts you supply:</p>
+      <ol>
+        <li>A suggested primary category, named to match the work you actually do, with a short reason. Extra categories only where you really offer that work.</li>
+        <li>A business description of 750 characters or fewer.</li>
+        <li>A services list: the name of each service and a short factual line.</li>
+        <li>An hours block. A day you did not specify is marked missing, not guessed.</li>
+        <li>Two short Google posts, ready to paste. No offer or discount unless you wrote it in the intake.</li>
+        <li>A review-request email you send yourself to people who were actually customers, plus a one-line reply you can paste under a new review. Profile Ready does not send that email.</li>
+      </ol>
+      <p class="note">Google Business Profile itself is free to create. The €149 is for the finished pack. If you later add Kenneth as a manager, the same fields can be entered on the live profile. Do not share your Google password. If you will not grant access, you still get the pack to paste yourself. Google decides verification. A postcard or a video check stays with you. Approval is not promised.</p>
+    </section>
+    <section>
+      <h2>What you send</h2>
+      <p>The intake asks for:</p>
+      <ul>
+        <li>Business name, as you want it shown</li>
+        <li>Town</li>
+        <li>What you would call the business, in your words (not a Google category yet)</li>
+        <li>Phone, if you want one shown</li>
+        <li>Website, if you have one</li>
+        <li>Hours, with Closed written on closed days</li>
+        <li>Services you offer, one per line, only what you actually do</li>
+        <li>Your email, for the handover later</li>
+      </ul>
+      <p>Submit downloads case.txt on your computer. Email that file to <a href="mailto:farrellfieldnotes@agentmail.to">farrellfieldnotes@agentmail.to</a>. The form does not send it. If a fact is missing, the pack says it was not supplied. It is not filled in with a guess.</p>
+    </section>
+    <section>
+      <h2>What Profile Ready will not do</h2>
+      <ul>
+        <li>No ranking promise, no “number one”, no “best in town”, and no claim about how many calls or views you will get.</li>
+        <li>No promise that Google will verify or approve the listing.</li>
+        <li>No edit to the live listing unless you grant manager access. No use of your password.</li>
+        <li>No review request sent for you, no gift or discount in exchange for a review, and no review written as if a customer wrote it.</li>
+        <li>No legal threats, no court wording, and no contact with your customers.</li>
+        <li>No message sent onward until Kenneth has approved that exact text. The review email is still yours to send.</li>
+        <li>No payment taken on this page.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Price</h2>
+      <p><strong>€149 once</strong>, for one location. A second premises is a second pack.</p>
+      <p class="pay">Payment is not live. A way to pay is added when the first job is taken. Until then, start by email or the intake. VAT is not added: the operator is not VAT registered.</p>
+    </section>
+    <section>
+      <h2>How long it takes</h2>
+      <p>Two working days from a complete intake. A working day is Monday to Friday in Ireland, not an Irish public holiday. Complete means the intake fields that apply to you are filled: business name, town, what you do, the services, and your email. Hours you skip are left blank in the pack, not invented. The two days produce a draft pack for you to correct. They do not include Google’s verification time, which Google sets.</p>
+    </section>
+    <section>
+      <h2>Worked example</h2>
+      <div class="example">
+        <p class="tag">Example only · not a customer · not a live listing</p>
+        <p>Paper Lantern Clocks is a fictional one-person clock-repair bench in Wexford town. The owner, Sam Doyle, is also fictional. Sam’s intake said: repairs to mechanical clocks and watches, open Tuesday to Friday 10:00–17:00, Saturday 10:00–14:00, closed Sunday and Monday, phone 053 000 0000, no website. Those hours and that phone number are made up.</p>
+        <p>The pack would include, in substance:</p>
+        <ul>
+          <li>Primary category: something that matches clock and watch repair, with a one-line reason tied to the work Sam named. Not a rank claim.</li>
+          <li>A description under 750 characters, for example: “Paper Lantern Clocks repairs mechanical clocks and watches in Wexford town. The bench is open Tuesday to Friday, 10:00–17:00, and Saturday, 10:00–14:00. Closed Sunday and Monday. Call 053 000 0000 to ask about a repair.” The real pack would show the character count and stay at or under 750.</li>
+          <li>Services: mechanical clock repair; watch repair. No service Sam did not name.</li>
+          <li>The hours above, with Sunday and Monday marked Closed.</li>
+          <li>Two posts that repeat the town, the two services, and the hours. No discount.</li>
+          <li>A review email Sam would send, only to people who had actually left a clock, with no reward for reviewing. Profile Ready would not send it.</li>
+        </ul>
+        <p>The live profile would be edited only if Sam granted manager access. Google would still decide verification. Nothing in this example was published.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Start</h2>
+      <p>Email <a href="mailto:farrellfieldnotes@agentmail.to">farrellfieldnotes@agentmail.to</a> or use the <a href="intake.html">intake</a>. One location, €149 once, paid when a way to pay is added.</p>
+      <p><a class="start" href="intake.html">Open the intake</a></p>
+    </section>
+  </main>
+  <footer>
+    Profile Ready. Ireland. Run by Kenneth Farrell. Not VAT registered. No testimonials, because there are no customers yet. This page does not log into Google and has not edited a listing. October 2026.
+  </footer>
 </body>
 </html>
