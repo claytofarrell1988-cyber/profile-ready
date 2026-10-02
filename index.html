@@ -98,6 +98,27 @@
       padding-top: 1rem;
       padding-bottom: 2.5rem;
     }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      margin: 0 0 0.75rem;
+    }
+    .brand .mark { margin: 0; }
+    .brand img {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 4px;
+      flex: none;
+    }
+    .hero {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0 0 1rem;
+      border-radius: 8px;
+    }
     @media (max-width: 36rem) {
       h1 { font-size: 1.8rem; }
     }
@@ -105,8 +126,12 @@
 </head>
 <body>
   <header>
-    <p class="mark">Profile Ready · Ireland</p>
+    <div class="brand">
+      <img src="mark.jpg" width="48" height="48" alt="Envelope mark">
+      <p class="mark">Profile Ready · Ireland</p>
+    </div>
     <h1>A finished Google Business Profile pack for one location.</h1>
+    <img class="hero" src="hero.jpg" alt="Shopfront">
     <p class="lede">Profile Ready writes the words for one Google Business Profile: category, description, services, hours, two posts, and a review-request email you send yourself. €149 once. The live listing is edited only if you grant manager access. Google still verifies the listing. This does not buy a ranking.</p>
     <a class="start" href="intake.html">Start with the intake</a>
     <a class="start-secondary" href="mailto:farrellfieldnotes@agentmail.to?subject=Profile%20Ready%20enquiry">Email farrellfieldnotes@agentmail.to</a>
